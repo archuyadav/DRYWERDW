@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_Account"
+            android:icon="@drawable/ic_account_circle_red_24dp"
+            android:title="Account" />
+        <item
+            android:id="@+id/nav_Ride"
+            android:icon="@drawable/ic_directions_car_yellow_24dp"
+            android:title="Ride" />
+        <item
+            android:id="@+id/nav_Offers"
+            android:icon="@drawable/ic_settings_system_daydream_black_24dp"
+            android:title="Offers" />
+        <item
+            android:id="@+id/nav_Payment"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="Payment" />
+        <item
+            android:id="@+id/nav_Share"
+            android:icon="@drawable/ic_share_24dp"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/ic_settings_blue_24dp"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_About"
+            android:icon="@drawable/ic_info_outline_green_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_Logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="Logout" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help" />
+    </group>
+</menu>

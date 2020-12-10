@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.drywerdw.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_Account"
+        android:name="com.example.drywerdw.ui.gallery.GalleryFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_Ride"
+        android:name="com.example.drywerdw.ui.slideshow.SlideshowFragment"
+        android:label="Ride"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_Offers"
+        android:name="com.example.drywerdw.PaymentFragment"
+        android:label="Offers"
+        tools:layout="@layout/fragment_payment" />
+    <fragment
+        android:id="@+id/nav_Payment"
+        android:name="com.example.drywerdw.OffersFragment"
+        android:label="Payment"
+        tools:layout="@layout/fragment_offers" />
+    <fragment
+        android:id="@+id/nav_Share"
+        android:name="com.example.drywerdw.ShareFragment"
+        android:label="Share"
+        tools:layout="@layout/fragment_share" />
+    <fragment
+        android:id="@+id/nav_Settings"
+        android:name="com.example.drywerdw.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/nav_About"
+        android:name="com.example.drywerdw.AboutFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.drywerdw.HelpFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_help" />
+</navigation>

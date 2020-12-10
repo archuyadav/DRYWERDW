@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "513187215364",
+    "firebase_url": "https://drywerdw.firebaseio.com",
+    "project_id": "drywerdw",
+    "storage_bucket": "drywerdw.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513187215364:android:64dfaef75675cf1a979d51",
+        "android_client_info": {
+          "package_name": "com.example.drywerdw"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513187215364-enpjm3h8u3vke0t858rcah19pr3jiv2o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drywerdw",
+            "certificate_hash": "ee2102a5e755a08f1ee3d2ac72310b9c7b9f0630"
+          }
+        },
+        {
+          "client_id": "513187215364-dd1keddph6j07ev7vj1klrv1hds34she.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF3bJ0HW1zR9HMx53b12bnWYXwDOIeB34"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513187215364-dd1keddph6j07ev7vj1klrv1hds34she.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
